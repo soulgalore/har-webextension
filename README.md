@@ -6,7 +6,7 @@ Firefox 57 will drop support for old Firefox extensions and only support the new
 
 
 ## Current version
-This version is only a way to test communicating between content/bakground and devtools.
+This version is only a way to test communicating between content/background and devtools. First install the extension and  ...
 
 1. Open the browser
 2. Open devtools
