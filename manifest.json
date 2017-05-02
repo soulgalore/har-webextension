@@ -1,0 +1,19 @@
+{
+  "name": "HAR Extension",
+  "description": "Get hold of the HAR file",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "devtools_page": "devtools.html",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"]
+  }],
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}
